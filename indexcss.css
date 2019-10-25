@@ -1,0 +1,32 @@
+
+.user-profile /* fixing the icon */
+{
+    position: relative;
+    left: 450%;
+    top: 2px;
+}
+img /*setting the size of the image */
+{
+   width: 35px;
+   height: 35px;
+}
+.nav-item /*placing the nav options beside the search option*/
+{
+    left: 450px;
+    position: relative;
+}
+.navbar-brand /*position the button */
+{
+    left: 440px;
+    position: relative;
+}
+.form-inline /* input button + search button form*/
+{
+    margin-right: 500px;
+    position: relative;
+}
+
+.form-control.mr-sm-2   /* input button*/
+{
+    width: 500px;
+}

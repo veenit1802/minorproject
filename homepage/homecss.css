@@ -1,0 +1,11 @@
+div
+{  
+    position: fixed;
+    top: 8%;
+    left: 35%;
+    width: 35%;
+    height: 50px;
+    padding: 10px;
+    border:2px solid gray;
+    margin: 0;
+}
