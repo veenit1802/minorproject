@@ -3,12 +3,36 @@ div.questionanswerbox
     position: relative;
     left: 28%;
     width: 45%;
-    height: 550px;
     padding: 10px;
     border:2px solid gray;
     margin: 0;
 }
+#more
+{
+    display: none;
+}
+button
+{
+   background-color: white;
+   border: 0px;
+   position: relative;
+   left: 85%;
+}
+p.userdetail
+{
+   position: relative;
+   top:-48px;
+   left: 7%;
+   font-size: medium;
+}
 
+p.postdate
+{
+   position: relative;
+   top: -67px;
+   left: 7%;
+   font-size: medium;
+}
 
 div.questioninbold
 {
@@ -16,7 +40,6 @@ div.questioninbold
    text-indent: 28%;
    position:relative;
 }
-
 
 p.questionfonter
 {
