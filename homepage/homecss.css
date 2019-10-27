@@ -1,11 +1,24 @@
-div
+div.questionanswerbox
 {  
-    position: fixed;
-    top: 8%;
-    left: 35%;
-    width: 35%;
-    height: 50px;
+    position: relative;
+    left: 28%;
+    width: 45%;
+    height: 550px;
     padding: 10px;
     border:2px solid gray;
     margin: 0;
+}
+
+
+div.questioninbold
+{
+   font-size:xx-large;
+   text-indent: 28%;
+   position:relative;
+}
+
+
+p.questionfonter
+{
+      font-size: 20px
 }
