@@ -5,10 +5,20 @@
     left: 450%;
     top: 2px;
 }
+
+a:hover
+{
+    border-radius: 40px;
+    background:#d3d3d3;
+    width: auto;
+    
+}
 img /*setting the size of the image */
 {
    width: 35px;
    height: 35px;
+   position: absolute ;
+   left: 10px;
 }
 .nav-item /*placing the nav options beside the search option*/
 {
@@ -22,7 +32,7 @@ img /*setting the size of the image */
 }
 .form-inline /* input button + search button form*/
 {
-    margin-right: 500px;
+    margin-right: 450px;
     position: relative;
 }
 
