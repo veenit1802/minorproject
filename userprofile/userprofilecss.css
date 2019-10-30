@@ -1,0 +1,32 @@
+div.userprofile
+{
+  border: 2px solid gray;
+  width: 45%;
+  position: relative;
+  left: 540px;
+  top: -50px;
+}
+img.userprofilephoto
+{
+  width: 18%;
+}
+p.usercredential
+{
+  position: relative;
+  top: -155px;
+  left: 195px;
+}
+p.userdescription
+{
+  position: relative;
+  left: 195px;
+  top:-155px;
+}
+p.userprofilename
+{
+  position: relative;
+  top: -150px;
+  left: 195px;
+  font-size: 20px;
+  font-weight: bold;
+}
