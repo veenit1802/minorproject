@@ -8,19 +8,37 @@ div.userprofile
 }
 img.userprofilephoto
 {
+  position: relative;
   width: 18%;
 }
-p.usercredential
+button.usercredential
 {
+  border: none;
+  background: none;
+  outline: transparent;
   position: relative;
   top: -155px;
   left: 195px;
 }
-p.userdescription
+button.usercredential:hover
 {
+  border-bottom: 1px solid;
+  
+}
+
+button.userdescription
+{
+  border: none;
+  background: none;
+  padding: 0;
+  outline: transparent;
   position: relative;
-  left: 195px;
-  top:-155px;
+  left: 35px;
+  top:-125px;
+}
+button.userdescription:hover
+{
+  border-bottom: 1px solid;
 }
 p.userprofilename
 {
