@@ -6,24 +6,27 @@ div.userprofile
   left: 540px;
   top: -50px;
 }
+
 img.userprofilephoto
 {
   position: relative;
-  width: 18%;
+  width: 20%;
 }
+
 button.usercredential
 {
+  padding: 0;
   border: none;
   background: none;
   outline: transparent;
   position: relative;
   top: -155px;
-  left: 195px;
+  left: 197px;
 }
+
 button.usercredential:hover
 {
   border-bottom: 1px solid;
-  
 }
 
 button.userdescription
@@ -33,17 +36,19 @@ button.userdescription
   padding: 0;
   outline: transparent;
   position: relative;
-  left: 35px;
+  left: 42px;
   top:-125px;
 }
+
 button.userdescription:hover
 {
   border-bottom: 1px solid;
 }
+
 p.userprofilename
 {
   position: relative;
-  top: -150px;
+  top: -145px;
   left: 195px;
   font-size: 20px;
   font-weight: bold;

@@ -1,10 +1,3 @@
-
-function openwindowmaster()
-{
-  document.write("<textarea></textarea>")
-   this.className="highlight";
-}
-
     function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -22,3 +15,13 @@ function openwindowmaster()
       moreText.style.display = "inline";
     }
   }
+
+$(document).ready(function() {
+  
+
+$('#answerbutton').click(
+  function() {
+    $('#killer').after("<textarea id=helloworld></textarea>");  
+  }
+);
+});

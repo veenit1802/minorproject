@@ -52,7 +52,7 @@ hr.questioninbold
    position: relative;
    left: -1%;
    width: 102%;
-   top: -10px;
+   top: 4px;
 }
 
 hr.answersum
@@ -117,4 +117,12 @@ div.questioninbold
 p.questionfonter
 {
       font-size: 20px;
+}
+
+textarea
+{
+   position: relative;
+   top: 10px;
+   padding-bottom: 20px;
+   resize: none;
 }
