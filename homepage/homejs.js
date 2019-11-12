@@ -16,12 +16,3 @@
     }
   }
 
-$(document).ready(function() {
-  
-
-$('#answerbutton').click(
-  function() {
-    $('#killer').after("<textarea id=helloworld></textarea>");  
-  }
-);
-});

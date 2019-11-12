@@ -114,15 +114,83 @@ div.questioninbold
    font-weight: 550;
 }
 
+
+
 p.questionfonter
 {
       font-size: 20px;
 }
 
-textarea
+
+
+
+
+.textareaforanswername
+{
+   position: relative;  
+   border: 1px solid gray;
+   width: 60%;
+   height: 60px;
+}
+
+
+
+.textareafortheimage
+{
+   width: 10%;
+   position: relative;
+   left: 1%;
+}
+
+.textareausername
+{
+    position: relative;
+    top: -43px;
+    left: 13%;
+    font-size:50%;
+    font-weight:bold;
+}
+
+.textareausername:hover
+{
+   
+   text-decoration-line: underline ;
+   text-decoration-style: none;
+   
+}
+
+.textareaforanswer
+{
+ 
+  
+   resize: none;
+   width: 60%;
+}
+
+
+.stylefortextarea
+{
+   border: 2px solid gray;
+   width: 60%;
+}
+
+
+.textareastylebullet
+{
+     left: 3%;
+     font-size: 30px;
+     text-align: center;
+     display: block;
+}
+
+.textareastylebullet:hover
 {
    position: relative;
-   top: 10px;
-   padding-bottom: 20px;
-   resize: none;
+   border: 1px solid gray;
+   bottom: -10px;
+   height: 40px;
+   box-sizing: border-box;
+   padding: 10px;
+  
+  
 }
