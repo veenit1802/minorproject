@@ -18,21 +18,32 @@
         <p>how to be good in competitive programming?</p>
         <div class="questionansweroption" id="killer">
            <button id="answerbutton" class="answeroption" >Answer</button>
-           <div class="textareafortheamswer">
+           
+           <div class="textareafortheanswer">
               
             <div class="textareaforanswername"> 
                 <img class="textareafortheimage" src="../assests/Profile-ICon.png" alt="">
                 <p class="textareausername">Veenit Shukla</p>
-              </div>
-            <div class="stylefortextarea">
-              <button class="textareastylebullet">B</button> 
             </div>
-           <textarea class="textareaforanswer"></textarea>
+
+            <div class="stylefortextarea">
+              <button  class="textareastylebold" data-command = "bold" >B</button> 
+              <button class="textareastyleitalics" data-command = "italic">I</button>
+            </div>
+
+           <div class="textareaoption" contenteditable="true">
+           
+           </div>
+
+            <div class="answersubmitoption">
+              <button class="submitanswer">submit</button>
+            </div>
 
           </div>
-        </div>
-        <hr class="questioninbold">
-    </div>
+        
+         </div>
+
+      </div>
     
     <div class="asnwerline">
       <p class="totalanswer">100+ Answers</p>
@@ -57,6 +68,6 @@
     </p>
     <button onclick="myFunction()" id="myBtn">more</button>
     <hr class="answerhr">
-  
+  <script src="./editorki.js"></script>
 </body>
 </html>

@@ -59,14 +59,14 @@ hr.answersum
 {  position: relative;
    left: 0.2%;
    width: 99.5%;
-   top:-20%;
+   top:7px;
 }
 
 p.totalanswer{
    position: absolute;;
    font-size: 19px;
    font-weight: 600;
-   top: -30px;
+   top: -22px;
 }
 
 button
@@ -114,26 +114,28 @@ div.questioninbold
    font-weight: 550;
 }
 
-
-
 p.questionfonter
 {
       font-size: 20px;
 }
 
 
+.textareafortheanswer
+{
+    display: none;
+}
 
 
 
 .textareaforanswername
 {
+   top: 5px;
+   
    position: relative;  
    border: 1px solid gray;
-   width: 60%;
+   width: 70%;
    height: 60px;
 }
-
-
 
 .textareafortheimage
 {
@@ -153,44 +155,95 @@ p.questionfonter
 
 .textareausername:hover
 {
-   
    text-decoration-line: underline ;
    text-decoration-style: none;
-   
 }
 
-.textareaforanswer
+.textareaoption
 {
  
-  
-   resize: none;
-   width: 60%;
+  border: 1px solid gray;
+  position: relative;
+  top: 5.5px;
+   font-size: 50%;
+   font-weight: normal;
+   width: 70%;
+   height: 155px;
 }
 
 
 .stylefortextarea
 {
-   border: 2px solid gray;
-   width: 60%;
+   position: relative;
+   border: 1px solid gray;
+   width: 70%;
+   line-height: 170%;
+   top: 5px;
 }
 
 
-.textareastylebullet
+.textareastylebold
 {
-     left: 3%;
-     font-size: 30px;
-     text-align: center;
-     display: block;
+   left: 3%;
+   font-size: 28px;
+   text-align: center;
+   box-sizing: border-box;
+   position: relative;
+   border: 0px solid gray;
+   width: 8%;
+   line-height: 140%; 
+   outline: none !important;
 }
 
-.textareastylebullet:hover
+.textareastylebold:hover
+{
+   box-sizing: border-box;
+   position: relative;
+   border: 1px solid gray;
+   width: 8%;
+   line-height: 140%; 
+   outline: none !important;
+}
+.textareastyleitalics
+{
+   font-style: italic;
+   left: 2%;
+   font-size: 28px;
+   text-align: center;
+   position: relative;
+   border: 0px solid gray;
+   width: 8%;
+   line-height: 140%;
+   outline: none !important;
+}
+
+.textareastyleitalics:hover
+{
+   box-sizing: border-box;
+   position: relative;
+   border: 1px solid gray;
+   width: 8%;
+   line-height: 140%;
+   outline: none !important;   
+}
+
+.answersubmitoption
 {
    position: relative;
    border: 1px solid gray;
-   bottom: -10px;
-   height: 40px;
-   box-sizing: border-box;
-   padding: 10px;
-  
-  
+   width: 70%;
+   top:5px;
+}
+
+.submitanswer
+{
+   position: relative;
+   left: 2%;
+   font-size: 24px;
+   color: white;
+   border: 0px solid gray;
+   background-color: #008CBA;
+   outline: none !important;
+   border-radius: 5%;
+   top: -3px;
 }
